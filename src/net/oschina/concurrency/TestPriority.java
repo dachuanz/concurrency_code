@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.lang.Thread.State;
 
 public class TestPriority {
-	/**
+/**
 	 * * Thread.setPriority()可能根本不做任何事情，这跟你的操作系统和虚拟机版本有关
 * 线程优先级对于不同的线程调度器可能有不同的含义，可能并不是你直观的推测。特别地，优先级并不一定是指CPU的分享。在UNIX系统，优先级或多或少可以认为是CPU的分配，但Windows不是这样
 * 线程的优先级通常是全局的和局部的优先级设定的组合。Java的setPriority()方法只应用于局部的优先级。换句话说，你不能在整个可能的范围 内设定优先级。（这通常是一种保护的方式，你大概不希望鼠标指针的线程或者处理音频数据的线程被其它随机的用户线程所抢占）
