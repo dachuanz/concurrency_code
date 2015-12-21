@@ -1,5 +1,9 @@
 package net.oschina.concurrency;
-
+/**
+ * 
+ * @author zdc52
+ * 实现 Runnable 接口实现多线程
+ */
 public class Calculator implements Runnable {
 	private int number;
 
