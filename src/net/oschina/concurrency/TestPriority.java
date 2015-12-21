@@ -40,9 +40,9 @@ public class TestPriority {
 		for (int i=0; i<10; i++){
 			threads[i]=new Thread(new Calculator(i));
 			if ((i%2)==0){
-				threads[i].setPriority(Thread.MAX_PRIORITY);
+				threads[i].setPriority(Thread.MAX_PRIORITY);//偶数 线程是高优先级
 			} else {
-				threads[i].setPriority(Thread.MIN_PRIORITY);
+				threads[i].setPriority(Thread.MIN_PRIORITY);//奇数线程是低优先级
 			}
 			threads[i].setName("Thread "+i);
 		}
