@@ -26,7 +26,7 @@ public class Account {
 	/**
 	 * 
 	 * 
-	 * Ôö¼Ó
+	 * å¢åŠ 
 	 * 
 	 */
 	public void addAmount(double amount) {
@@ -43,7 +43,7 @@ public class Account {
 	/**
 	 * 
 	 * 
-	 * ¼õÉÙ
+	 * å‡å°‘
 	 * 
 	 */
 	public void subtractAmount(double amount) {
