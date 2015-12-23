@@ -2,7 +2,7 @@ package net.oschina.concurrency.syncnew;
 
 /**
  * 
- * @author zdc52 无同步保护
+ * @author zdc52 添加同步保护
  */
 public class Account {
 
