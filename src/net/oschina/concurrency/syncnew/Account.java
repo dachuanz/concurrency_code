@@ -42,7 +42,7 @@ public class Account {
 	/**
 	 * 
 	 * 
-	 * 
+	 * 同步保护
 	 * 
 	 */
 	public synchronized void subtractAmount(double amount) {
