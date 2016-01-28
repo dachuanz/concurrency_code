@@ -1,7 +1,7 @@
 package net.oschina.concurrency.syncnew;
 /**
  * 
- * @author zdc52
+ * @author 张大川
  *
  */
 public class Bank implements Runnable {
