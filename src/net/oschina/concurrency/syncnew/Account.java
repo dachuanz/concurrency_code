@@ -2,7 +2,8 @@ package net.oschina.concurrency.syncnew;
 
 /**
  * 
- * @author zdc52 添加同步保护
+ * @author 张大川
+ *添加同步保护
  */
 public class Account {
 
@@ -25,7 +26,7 @@ public class Account {
 	/**
 	 * 
 	 * 
-	 * 
+	 * 同步保护
 	 * 
 	 */
 	public synchronized void addAmount(double amount) {
