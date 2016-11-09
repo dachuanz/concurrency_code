@@ -2,7 +2,7 @@ package net.oschina.concurrency.sync;
 
 /**
  * 
- * @author zdc52
+ * @author 张大川
  *
  */
 public class Account {
